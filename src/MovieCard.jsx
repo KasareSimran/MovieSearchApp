@@ -22,14 +22,14 @@ const MovieCard = ({ movie: { Year, Poster, Title, Type } }) => {
     );
 };
 
-// // Validate props using PropTypes
-// MovieCard.propTypes = {
-//     movie: PropTypes.shape({
-//         Year: PropTypes.string.isRequired,
-//         Poster: PropTypes.string.isRequired,
-//         Title: PropTypes.string.isRequired,
-//         Type: PropTypes.string.isRequired,
-//     }).isRequired,
-// };
+// Validate props using PropTypes
+MovieCard.propTypes = {
+    movie: PropTypes.shape({
+        Year: PropTypes.string.isRequired,
+        Poster: PropTypes.string.isRequired,
+        Title: PropTypes.string.isRequired,
+        Type: PropTypes.string.isRequired,
+    }).isRequired,
+};
 
 export default MovieCard;
