@@ -1,5 +1,6 @@
 
-import { useEffect, useState } from "react"
+// eslint-disable-next-line no-unused-vars
+import React,{ useEffect, useState } from "react"
 import './App.css';
 import searchIcon from './search.svg';
 import MovieCard from './MovieCard.jsx';
